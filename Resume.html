@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal Resume - Jeccan G. Marvilla">
+    <title>Jeccan G. Marvilla - Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header-section">
+        <div class="container">
+            <div class="profile-container">
+                <div class="profile-image">
+                    <img src="/storage/emulated/0/DCIM/jeccan.jpg" alt="Profile picture of [Your Name]">
+                </div>
+                <div class="profile-info">
+                    <h1>Jeccan G. Marvilla</h1>
+                    <div class="info-item">
+                        <strong>Age:</strong> 23
+                    </div>
+                    <div class="info-item">
+                        <strong>Address:</strong> Sta. Remedios, Bulan Sorsogon
+                    </div>
+                    <div class="info-item">
+                        <strong>Course:</strong> Bachelor of Science in Information Systems
+                    </div>
+                    <div class="bio">
+                        <strong>Bio:</strong>
+                        <p><b>I am a dedicated and passionate student pursuing a degree in Information Systems. I have a keen interest in technology and its potential to solve real-world problems. My goal is to leverage my skills to contribute to innovative projects and make a positive impact in the tech industry.</b></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="education-section">
+        <div class="container">
+            <h2>Educational Background</h2>
+
+            <div class="education-item">
+                <h3>College</h3>
+                <div class="academic-year">
+                    <h4>2025-2026</h4>
+                    <ul class="subject-list">
+                        <li>Capstone 2</li>
+                        <li>Applications Development and Emerging Technologies 1</li>
+                        <li>IS Strategy Management and Acquisition</li>
+                        <li>Project Managenent 2</li>
+                        <li>IS Professional Track 4 (IT Security and Risk Management)</li>
+                        <li>Free Elective 3 (Analytics Techniques and Tools)</li>
+                    </ul>
+                </div>
+                <div class="academic-year">
+                    <h4>2024-2025</h4>
+                    <ul class="subject-list">
+                        <li>Capstone project 1</li>
+                        <li>Evaluation of Business Performence</li>
+                        <li>IS Project Management 1</li>
+                        <li>Entereprise System</li>
+                        <li>IS Professional Track 3 (IT Audit and Controls)</li>
+                        <li>Free Elective 2 (Analytics Modelling)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form class="contact-form" action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="social-media-section">
+        <div class="container">
+            <h2>Connect with Me</h2>
+            <div class="social-links">
+                <a href="Http://Facebook.com/den.jeccan" target="_blank" class="social-link">
+                    <span class="social-icon"></span>
+                    Facebook
+                </a>
+                <a href="[Your Instagram URL]" target="_blank" class="social-link">
+                    <span class="social-icon"></span>
+                    Instagram
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
+<style>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+.header-section {
+    background: linear-gradient(lightblue 10%, white 20%, skyblue 100%);
+    color: black;
+    padding: 60px 0;
+    margin-bottom: 40px;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.profile-image {
+    flex: 0 0 250px;
+}
+
+.profile-image img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.profile-info {
+    flex: 1;
+    min-width: 300px;
+}
+
+.profile-info h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.info-item {
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+}
+
+.info-item strong {
+    display: inline-block;
+    width: 80px;
+    font-weight: 600;
+}
+
+.bio {
+    margin-top: 20px;
+}
+
+.bio p {
+    margin-top: 10px;
+    font-size: 1rem;
+    opacity: 0.9;
+    line-height: 1.7;
+}
+
+
+.education-section {
+    background: white;
+    padding: 60px 0;
+    margin-bottom: 40px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.education-section h2 {
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 40px;
+    color: blue;
+    position: relative;
+}
+
+.education-section h2::after {
+    display: block;
+    width: 80px;
+    height: 3px;
+    background: #667eea;
+    margin: 10px auto;
+}
+
+.education-item {
+    margin-bottom: 40px;
+    padding: 30px;
+    background: linear-gradient(white 5%, lightblue 50%, purple 100%);
+    border-radius: 10px;
+    border-left: 7px solid #667eea;
+    border-right: 7px solid #667eea;
+    border-top: 7px solid #667eea;
+    border-bottom: 7px solid #667eea;
+}
+
+.education-item h3 {
+    font-size: 1.8rem;
+    color: #2c3e50;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.academic-year {
+    margin-bottom: 30px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.academic-year h4 {
+    font-size: 1.3rem;
+    color: #667eea;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #e9ecef;
+}
+
+.subject-list {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px;
+}
+
+.subject-list li {
+    background: pink;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.subject-list li:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+}
+
+/* Contact Section */
+.contact-section {
+    background: white;
+    padding: 60px 0;
+    margin-bottom: 40px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section h2 {
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 40px;
+    color: #2c3e50;
+    position: relative;
+}
+
+.contact-section h2::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 3px;
+    background: #667eea;
+    margin: 10px auto;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #f8f9fa;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: 2px solid #e9ecef;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    font-family: inherit;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #667eea;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.submit-btn {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-weight: 600;
+    width: 100%;
+}
+
+.submit-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 20px rgba(102, 126, 234, 0.4);
+}
+
+/* Social Media Section */
+.social-media-section {
+    background: #2c3e50;
+    color: white;
+    padding: 60px 0 40px;
+}
+
+.social-media-section h2 {
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.social-media-section h2::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 3px;
+    background: #667eea;
+    margin: 10px auto;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.social-link:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.social-icon {
+    font-size: 1.5rem;
+}
+
+/* Responsive Design for Safari and other browsers */
+@media (max-width: 768px) {
+    .profile-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-image {
+        flex: 0 0 200px;
+    }
+
+    .profile-image img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .profile-info h1 {
+        font-size: 2rem;
+    }
+
+    .subject-list {
+        grid-template-columns: 1fr;
+    }
+
+    .social-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .social-link {
+        width: 200px;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .contact-form {
+        padding: 20px;
+    }
+
+    .education-item {
+        padding: 20px;
+    }
+
+    .academic-year {
+        padding: 15px;
+    }
+}
+
+/* Print styles for bonus points */
+@media print {
+    .header-section {
+        background: #667eea !important;
+        -webkit-print-color-adjust: exact;
+    }
+
+    .contact-form,
+    .social-media-section {
+        display: none;
+    }
+
+    .subject-list li {
+        background: #667eea !important;
+        -webkit-print-color-adjust: exact;
+    }
+}
